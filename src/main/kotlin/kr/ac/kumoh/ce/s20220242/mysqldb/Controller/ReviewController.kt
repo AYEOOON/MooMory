@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 
 @RestController
-@RequestMapping("/api/reviews")
+@RequestMapping("/reviews")
 class ReviewController @Autowired constructor(
     private val reviewService: ReviewService
 ) {
